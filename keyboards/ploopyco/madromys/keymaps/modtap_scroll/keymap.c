@@ -62,5 +62,5 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT(MO(1), TD(TD_TAB_CLOSE), LT(0, TD_DS), MS_BTN4, MS_BTN1, MS_BTN2),
     // [0] = LAYOUT(MO(1), LCTL(KC_W), MS_BTN4, MOMENTARY_DRAG_SCROLL, MS_BTN1, MS_BTN2),
-    [1] = LAYOUT(KC_TRNS, MS_BTN3, DPI_CONFIG, TD(WIN_TAB), LGUI(KC_LEFT), LGUI(KC_RGHT)),
+    [1] = LAYOUT(KC_TRNS, TD(WIN_TAB), DPI_CONFIG, MS_BTN3, LGUI(KC_LEFT), LGUI(KC_RGHT)),
 };
